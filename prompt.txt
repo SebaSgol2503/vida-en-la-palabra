@@ -1,0 +1,85 @@
+Desarrolla una aplicación móvil cristiana llamada “Vida en la Palabra”, diseñada para Android e iOS, usando Flutter como framework. El objetivo de la app es guiar al usuario a través de devocionales profundos con una estructura de 6 pasos diarios. A continuación, los requerimientos funcionales y visuales para la versión MVP:
+
+✅ Funcionalidades Principales
+1. Pantalla de bienvenida
+Muestra el logo de la app (puede ser un ícono de Biblia abierta o una luz sobre ella).
+
+Frase: “Un encuentro diario con la verdad que transforma”.
+
+Botón para “Comenzar” y continuar al Home.
+
+2. Pantalla principal (Home)
+Muestra el devocional del día (extraído de un plan de 21 días).
+
+Botón: “Empezar Devocional”.
+
+Fecha y título visible.
+
+3. Pantalla de planes devocionales
+Lista de planes disponibles (por ahora solo uno):
+Plan: “Transformados por la Palabra” – 21 días
+
+Cada plan tiene: portada, título y breve descripción.
+
+4. Pantalla de devocional
+Debe presentar 6 bloques/secciones que el usuario puede explorar uno por uno:
+
+Lectura bíblica
+
+Historia ilustrativa
+
+Contexto del pasaje
+
+Problemas espirituales en el texto
+
+Soluciones espirituales encontradas
+
+Oración guiada
+
+Cada sección es expandible/plegable.
+
+Al final, botón: “Marcar como completado”.
+
+5. Diario espiritual
+Después del devocional, el usuario puede escribir reflexiones personales.
+
+Guarda cada entrada por fecha.
+
+Permite consultar entradas anteriores.
+
+📦 Contenido Inicial
+Cargar el plan de 21 días llamado “Transformados por la Palabra”, con estructura de 6 bloques por día (el contenido lo aportará el creador).
+
+El contenido puede almacenarse localmente en un JSON para esta versión inicial.
+
+🛠️ Tecnología
+Frontend: Flutter (diseño responsivo para Android/iOS)
+
+Backend: Firebase (solo si se requiere autenticación o almacenamiento en nube)
+
+UI/UX: estilo moderno, limpio, espiritual. Colores sugeridos: blanco, azul cielo, detalles dorados.
+
+🧑‍💻 Extras (futuros)
+No incluir en el MVP, pero dejar espacio modular en el código para escalar con:
+
+Narración en audio de los devocionales
+
+Comunidad y grupos de oración
+
+Notificaciones diarias
+
+🎯 Objetivo
+Crear una app usable, limpia y funcional que permita al usuario:
+
+Leer devocionales diarios con estructura profunda
+
+Llevar un diario espiritual personal
+
+Navegar por planes de crecimiento espiritual
+
+📎 Entrega Esperada
+Código fuente en Flutter listo para compilar en Android/iOS
+
+Archivo JSON (o estructura base) para insertar el contenido del plan de 21 días
+
+Manual breve para actualizar el contenido (planes y devocionales)
